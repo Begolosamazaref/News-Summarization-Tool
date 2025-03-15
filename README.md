@@ -22,30 +22,41 @@ News-Summarization-Tool is a command-line application that fetches news articles
 ```sh
 git clone https://github.com/Begolosamazaref/News-Summarization-Tool.git
 cd News-Summarization-Tool
+```
 
 ### 2. Install Dependencies
 ```sh
 pip install -r requirements.txt
+```
 
 ### 3. Configure API Key
-Open config.py and add your NewsAPI key:
+Open `config.py` and add your NewsAPI key:
+```python
 NEWS_API_KEY = "your_news_api_key_here"
+```
 
 ## Usage
-Run the Application
-sh
+### Run the Application
+```sh
 python main.py
-Available Commands:
-Search for news by topic.
-Choose summary type (short or detailed).
-Save topics of interest for future searches.
-View search history to track past queries.
-Project Structure
-news_retriever.py - Fetches news articles using NewsAPI.
-embedding_engine.py - Generates and stores vector embeddings.
-summarizer.py - Implements LangChain summarization.
-user_manager.py - Tracks user preferences and search history.
-main.py - The main interface for the application.
-Deliverables
-Full Python code with documentation.
-A working demo of the application.
+```
+
+### Available Commands
+- Search for news by topic.
+- Choose summary type (short or detailed).
+- Save topics of interest for future searches.
+- View search history to track past queries.
+
+## Project Structure
+```
+news_retriever.py      # Fetches news articles using NewsAPI.
+embedding_engine.py    # Generates and stores vector embeddings.
+summarizer.py         # Implements LangChain summarization.
+user_manager.py       # Tracks user preferences and search history.
+main.py               # The main interface for the application.
+```
+
+## Deliverables
+- Full Python code with documentation.
+- A working demo of the application.
+
