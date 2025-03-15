@@ -14,7 +14,7 @@ News-Summarization-Tool is a command-line application that fetches news articles
 ## Requirements
 - **Python 3.8+**
 - **NewsAPI Key** (Sign up at [NewsAPI](https://newsapi.org/register))
-- **Dependencies** (LangChain, OpenAI embeddings, FAISS-CPU, Transformers, Sentence-Transformers, Requests, LangChain-Community) 
+- **Dependencies** (LangChain, OpenAI embeddings, FAISS-CPU, Transformers, Sentence-Transformers, Requests, LangChain-Community)
 
 ## Installation & Setup
 
@@ -47,6 +47,9 @@ python main.py
 - Save topics of interest for future searches.
 - View search history to track past queries.
 
+## Demo
+Watch the demo here: [News-Summarization-Tool Demo](https://drive.google.com/file/d/1s2UtDsDHOAajt__xErq1IIO5JhnDQPRi/view?usp=drive_link)
+
 ## Project Structure
 ```
 config.py             # Stores configuration settings like API keys and global variables.  
@@ -57,5 +60,4 @@ requirements.txt      # Lists dependencies required to run the project.
 summarizer.py         # Implements LangChain-based text summarization using Hugging Face models.  
 user_data.json        # Stores user preferences and search history in JSON format.  
 user_manager.py       # Manages user preferences and search history, saving data in JSON.  
- 
 ```
