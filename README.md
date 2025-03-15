@@ -8,13 +8,13 @@ News-Summarization-Tool is a command-line application that fetches news articles
 - Generate short (1-2 sentences) or detailed (paragraph) summaries.
 - Store and track user topic preferences.
 - Provide AI-powered vector embeddings for improved search.
-- Maintain user search history.
+- Show user search history.
 - Simple command-line interface.
 
 ## Requirements
 - **Python 3.8+**
 - **NewsAPI Key** (Sign up at [NewsAPI](https://newsapi.org/register))
-- **Dependencies** (LangChain, OpenAI embeddings, FAISS or ChromaDB)
+- **Dependencies** (LangChain, OpenAI embeddings, FAISS-CPU, Transformers, Sentence-Transformers, Requests, LangChain-Community) 
 
 ## Installation & Setup
 
