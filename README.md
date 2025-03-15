@@ -49,17 +49,13 @@ python main.py
 
 ## Project Structure
 ```
-config.py              # Stores configuration settings like API keys and global variables.  
-embedding_engine.py    # Generates and processes vector embeddings for NLP tasks.  
-main.py               # Entry point of the application, orchestrates execution.  
-news_retriever.py      # Fetches and processes news articles from APIs or web sources.  
+config.py             # Stores configuration settings like API keys and global variables.  
+embedding_engine.py   # Generates vector embeddings for news articles and stores them in FAISS.  
+main.py               # Entry point of the application, coordinating different modules.  
+news_retriever.py     # Fetches news articles from NewsAPI based on user queries.  
 requirements.txt      # Lists dependencies required to run the project.  
-summarizer.py         # Implements text summarization using NLP techniques.  
-user_data.json        # Stores user-related data such as preferences and history.  
-user_manager.py       # Manages user authentication, profiles, and data handling.  
+summarizer.py         # Implements LangChain-based text summarization using Hugging Face models.  
+user_data.json        # Stores user preferences and search history in JSON format.  
+user_manager.py       # Manages user preferences and search history, saving data in JSON.  
+ 
 ```
-
-## Deliverables
-- Full Python code with documentation.
-- A working demo of the application.
-
